@@ -1,7 +1,6 @@
 # Weather Forecast Application
 
-![Uploading Screenshot 2025-06-15 at 21-48-27 Weather Forecast App.png…]()
-
+![Screenshot 2025-06-15 at 21-48-27 Weather Forecast App](https://github.com/user-attachments/assets/a95af261-6449-4801-bde8-9c865b4a7959)
 
 A responsive web application built with Django that provides current weather conditions and 5-day forecasts for any city worldwide using the OpenWeatherMap API.
 
