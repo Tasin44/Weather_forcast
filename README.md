@@ -43,3 +43,46 @@ A responsive web application built with Django that provides current weather con
    ```bash
    git clone https://github.com/yourusername/weather-forecast-app.git
    cd weather-forecast-app
+2. Set up a virtual environment (recommended)
+bash
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. Install dependencies
+bash
+
+pip install django requests pycountry
+
+4. Set up environment variables
+
+Create a .env file in your project directory:
+text
+
+OPENWEATHER_API_KEY=your_api_key_here
+
+5. Run the development server
+bash
+
+python manage.py runserver
+
+6. Access the application
+
+Open your browser and visit:
+text
+
+http://127.0.0.1:8000
+
+Configuration
+
+Before running the application, you need to:
+
+    Obtain a free API key from OpenWeatherMap
+
+    Either:
+
+        Replace the API key in views.py directly, or
+
+        Use the recommended environment variable method (create .env file)
+
+    (Optional) Configure Django settings as needed in settings.py
